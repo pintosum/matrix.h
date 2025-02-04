@@ -1,6 +1,8 @@
 #ifndef S21_MATRIX_H
 #define S21_MATRIX_H
 
+#include <stdlib.h>
+
 typedef struct matrix_struct {
   double **matrix;
   int rows;
