@@ -9,8 +9,11 @@ typedef struct matrix_struct {
   int columns;
 } matrix_t;
 
-#define SUCCESS 1
-#define FAILURE 0
+#define OK 0
+#define ERROR 1
+#define CALCULATION_ERROR 2
+#define FALSE 0
+#define TRUE 1
 
 int s21_create_matrix(int, int, matrix_t *);
 void s21_remove_matrix(matrix_t *);
